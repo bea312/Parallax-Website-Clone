@@ -1,0 +1,41 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.navbar{
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+   width: 100%;
+   
+   
+}
+.nav-container{
+
+    padding: 20px;
+}
+.nav-item{
+    text-decoration: none;
+    color:#000;
+    margin-right: 20px;
+    padding: 8px 12px;
+    font-family:   serif;
+  
+  
+  
+  
+}
+.nav-item:hover{
+    background-color:#ccc;
+    color: #000;
+}
+.nav-right{
+    float: right;
+}
+.nav-right:hover{
+    background-color:#ccc;
+    color: #000;
+}
