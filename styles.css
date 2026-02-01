@@ -29,7 +29,7 @@ body{
   
 }
 .nav-item:hover{
-    background-color:#ccc;
+    background-color:#55b67d;
     color: #000;
 }
 .nav-right{
@@ -48,6 +48,7 @@ body{
             position: relative;
         }
         .img-1 { background-image: url('./Lake\ Kivu_\ The\ Side\ of\ Rwanda\ You\ Haven\'t\ Seen.jpeg'); }
+        .img-2 { background-image: url('./Lake\ Kivu\ from\ Rwanda.jpeg'); }
 
 
          .caption {
@@ -138,10 +139,54 @@ body{
         }
 
         .progress-fill {
-            background-color: #94a2aa;
+            background-color: #55b67d;
            height: 38px;
             color:black;
             font-family: Impact, sans-serif;
+            text-align: center;
+            line-height: 38px;
+            font-size: 12px;
+        }
+        .stats-bar {
+            background-color:#1a3a3a; 
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 64px 0;
+            text-align: center;
+        }
+
+      .stat-item {
+            flex: 25%;
+            gap: 20px;
+        }
+
+         .stat-number { font-size: 24px; display: block; }
+        .stat-label { font-size: 14px; }
+/*img 2 */
+.skills-container {
+            padding: 40px 0;
+            text-align: left;
+        }
+
+        .skill-label {
+            letter-spacing: 5px;
+            margin-bottom: 10px;
+            display: block;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+
+        .progress-bg {
+            background-color: #f1f1f1;
+            height: 38px;
+            margin-bottom: 25px;
+        }
+
+        .progress-fill {
+            background-color: #616161;
+            height: 100%;
+            color: white;
             text-align: center;
             line-height: 38px;
             font-size: 12px;
