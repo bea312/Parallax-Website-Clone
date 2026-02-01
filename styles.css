@@ -49,6 +49,8 @@ body{
         }
         .img-1 { background-image: url('./Lake\ Kivu_\ The\ Side\ of\ Rwanda\ You\ Haven\'t\ Seen.jpeg'); }
         .img-2 { background-image: url('./Lake\ Kivu\ from\ Rwanda.jpeg'); }
+        .img-3 { background-image: url('./24\ hours\ in\ a\ Michigan\ state\ park\ -\ summer\ beach\ vacation\ ideas.jpeg'); }
+
 
 
          .caption {
@@ -224,3 +226,23 @@ body{
         }
 
         .gallery-item:hover img { transform: scale(1.1); }
+#loadmore{
+    text-align: center;
+    margin: 20px 0;
+   
+}
+.loadmore-button{
+    background-color: #f0eaea;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    border: 2px ;
+   
+
+}
+.loadmore-button:hover{
+    background-color:#55b67d;
+    color: #000;
+
+}
