@@ -64,3 +64,56 @@ body{
             font-size: 25px;
             letter-spacing: 10px;
         }
+        /*about */
+        .section-content {
+    padding: 64px 16px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+     
+}
+
+.title {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+
+.subtitle {
+    margin: 15px 0;
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.main-description {
+    text-align: justify; 
+    margin-bottom: 40px;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+} 
+
+
+.col-half {
+    flex: 50%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+   
+    
+}
+
+.text-left {
+    text-align: left; 
+}
+
+.profile-img {
+    width: 70%;
+    max-width: 500px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
