@@ -39,3 +39,28 @@ body{
     background-color:#ccc;
     color: #000;
 }
+.parallax-bg {
+            height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .img-1 { background-image: url('./Lake\ Kivu_\ The\ Side\ of\ Rwanda\ You\ Haven\'t\ Seen.jpeg'); }
+
+
+         .caption {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            transform: translateY(-50%);
+        }
+        .border-text {
+            background-color: #111;
+            color: #fff;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 10px;
+        }
