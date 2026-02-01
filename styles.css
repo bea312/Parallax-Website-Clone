@@ -117,3 +117,32 @@ body{
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+/*selection*/
+.skills-container {
+            padding: 40px 0;
+            text-align: left;
+        }
+
+        .skill-label {
+            letter-spacing: 5px;
+            margin-bottom: 10px;
+            display: block;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+
+       .progress-bg {
+            background-color: #f1f1f1;
+            height: 38px;
+            margin-bottom: 25px;
+        }
+
+        .progress-fill {
+            background-color: #94a2aa;
+           height: 38px;
+            color:black;
+            font-family: Impact, sans-serif;
+            text-align: center;
+            line-height: 38px;
+            font-size: 12px;
+        }
