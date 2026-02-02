@@ -1,44 +1,62 @@
-.{
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    
-}
-.navbar{
-    background-color: #fff;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-   width: 100%;
-   
-   
-}
-.nav-container{
+  body, html {
+            height: 100%;
+            margin: 0;
+            font-family: "Lato", sans-serif;
+            color: #777;
+            line-height: 1.8;
+            scroll-behavior: smooth;
+        }
 
-    padding: 20px;
+        /* --- NAV BAR --- */
+        .navbar {
+            background-color: #fff;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .nav-container {
+            display: flex;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .nav-item {
+            text-decoration: none;
+            color: #000;
+            padding: 15px 20px;
+            font-size: 14px;
+            letter-spacing: 2px;
+            transition: 0.3s;
+            
+        }
+
+       
+
+
+.nav-right{
+    margin-left: auto;
+   
 }
-.nav-item{
-    text-decoration: none;
-    color:#000;
-    margin-right: 20px;
-    padding: 8px 12px;
-    font-family:   serif;
-  
-  
-  
-  
+.nav-right:hover{
+    background-color:#55b67d;
+    color: #000;
 }
 .nav-item:hover{
     background-color:#55b67d;
     color: #000;
 }
-.nav-right{
-    float: right;
-}
-.nav-right:hover{
-    background-color:#ccc;
-    color: #000;
-}
+
+
+
 .parallax-bg {
             height: 500px;
             background-attachment: fixed;
@@ -46,6 +64,8 @@ body{
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
+             filter: grayscale(80%);
+          
         }
         .img-1 { background-image: url('./Lake\ Kivu_\ The\ Side\ of\ Rwanda\ You\ Haven\'t\ Seen.jpeg'); }
         .img-2 { background-image: url('./Lake\ Kivu\ from\ Rwanda.jpeg'); }
@@ -59,6 +79,7 @@ body{
             width: 100%;
             text-align: center;
             transform: translateY(-50%);
+           
         }
         .border-text {
             background-color: #111;
@@ -106,9 +127,20 @@ body{
     padding: 0 20px;
     box-sizing: border-box;
     letter-spacing: 1px;
+    transition: 0.3s;
+      filter: grayscale(50%);
    
     
 }
+.gallery-grid{
+    width: 100%;
+            filter: grayscale(100%);
+            transition: 0.5s;
+            cursor: pointer;
+}
+.gallery-grid:hover {
+            filter: grayscale(0%);
+        }
 
 .text-left {
     text-align: left; 
@@ -353,4 +385,5 @@ body{
 .social-icons i:hover {
     opacity: 0.5;
 }
+ 
 
