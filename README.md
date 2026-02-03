@@ -21,12 +21,5 @@ The website is built using **HTML5**, **CSS3**, and **Font Awesome** icons, feat
 * **Navigation Bar:** A fixed navbar that remains visible while scrolling.
 * **Footer:** A comprehensive footer with social media icons and a "To the top" navigation button.
 
-## Responsiveness
 
-The project includes custom **Media Queries** to ensure the following:
-
-* **Navigation:** Stacks vertically on mobile for easier touch access.
-* **Grids:** Shift from 4 columns to 2 or 1 column on smaller screens to maintain readability.
-* **Form Elements:** Name and Email inputs stack vertically
-* **Course ID:** [Insert Your Course ID Here]
 Name: Beatrice
