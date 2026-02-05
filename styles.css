@@ -385,6 +385,10 @@
 .social-icons i:hover {
     opacity: 0.5;
 }
+.main-footer:hover{
+    background-color:#ccc;
+    color: #000;
+}
  
 
 /* --- RESPONSIVENESS  */
